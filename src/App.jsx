@@ -7,7 +7,8 @@ import DestinationsContainer from "./pages/DestinationContainer";
 import DestinationsContainerAdmin from "./pages/DestinationContainerAdmin.jsx";
 import Accomodation from "./pages/Accomodation.jsx";
 import AccomodationAdmin from "./pages/AccomodationAdmin.jsx";
-
+import ItemDetails from "./pages/ItemDetails.jsx";
+import AccomDetails from "./pages/AccomDetails.jsx";
 export default function App() {
   return (
     <Routes>
@@ -18,7 +19,8 @@ export default function App() {
       <Route path="/destinationadmin" element={< DestinationsContainerAdmin />} />
       <Route path="/accomodation" element={< Accomodation />} />
       <Route path="/accomodationadmin" element={< AccomodationAdmin />} />
-
+      <Route path="/itemdetails/:name" element={<ItemDetails />} />
+      <Route path="/accomdetails/:name" element={<AccomDetails />} />
     </Routes>
   );
 }

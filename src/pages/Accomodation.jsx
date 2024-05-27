@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DestinationItem from "../components/DestinationItem";
 import HeroImage from "../assets/hero.png";  
+import Elnavbarjdida from "../components/Elnavbarjdida";
 
 function Accomodation() {
   const [destinations,setDestinations] =useState( []);
@@ -23,6 +24,7 @@ function Accomodation() {
 
   return (
     <>
+    <Elnavbarjdida />
       <section
         id="destinations"
         className="p-4 md:p-10 lg:p-16 bg-cover bg-center relative text-gray-900"

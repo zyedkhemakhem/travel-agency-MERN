@@ -6,6 +6,7 @@ import japan from "../assets/japan.png";
 import HeroImage from "../assets/hero.png"; 
 import tour1 from "../assets/tour1.png";
 import tour2 from "../assets/tour2.png";
+import Elnavbarjdida from "../components/Elnavbarjdida";
 
 
 function DestinationsContainer() {
@@ -20,6 +21,7 @@ function DestinationsContainer() {
 
   return (
     <>
+    <Elnavbarjdida />
       <section
         id="destinations"
         className="p-4 md:p-10 lg:p-16 bg-cover bg-center relative text-gray-900"

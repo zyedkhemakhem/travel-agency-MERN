@@ -6,6 +6,7 @@ import HeroImage from "../assets/hero.png";
 import Button from "../components/Button";
 import tour1 from "../assets/tour1.png";
 import tour2 from "../assets/tour2.png";
+import Elnavbarjdida from "../components/Elnavbarjdida";
 
 function DestinationsContainerAdmin() {
   const [destinations,setDestinations] = useState([
@@ -51,6 +52,7 @@ function DestinationsContainerAdmin() {
 
   return (
     <>
+     <Elnavbarjdida />
           <section
         id="destinations"
         className="p-4 md:p-10 lg:p-16 bg-cover bg-center relative text-gray-900"
