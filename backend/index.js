@@ -37,7 +37,7 @@ app.use("/blogs",blogsRouter)
 
 connectDb = async () => {
   try {
-    await mongoose.connect('mongodb+srv://test:test@cluster0.cl70avo.mongodb.net/', {
+    await mongoose.connect('', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
